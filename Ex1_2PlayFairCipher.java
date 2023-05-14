@@ -11,6 +11,7 @@ public class Ex1_2PlayFairCipher {
         System.out.println("Encrypted string: " + encrypted);
         String decrypted = decrypt(encrypted, key);
         System.out.println("Decrypted string: " + decrypted);
+        sc.close();
     }
 
     public static String encrypt(String str, String key) {
