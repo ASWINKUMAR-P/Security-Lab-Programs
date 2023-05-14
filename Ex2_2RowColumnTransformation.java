@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Ex2_1RowColumnTransformation {
+public class Ex2_2RowColumnTransformation {
 
     public static String encrypt(String text,int keys[]){
         String encrypted = "";
